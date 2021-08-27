@@ -11,7 +11,7 @@ public class SpringBootDockerApplication {
 
 	@GetMapping("/message")
 	public String getMessage() {
-		return "Welcome to JavaTechie..!!";
+		return "Hello world!! This is Java Application";
 	}
 
 	public static void main(String[] args) {
